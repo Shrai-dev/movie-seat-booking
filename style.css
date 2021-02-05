@@ -32,10 +32,6 @@ body {
   justify-content: center;
 }
 
-/*.image__wrapper {
-  justify-content: center;
-}*/
-
 .movie__image {
   height: 450px;
   width: 300px;
@@ -66,11 +62,10 @@ body {
 }
 
 .movie-hall {
-  /*width: 50%;*/
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-top: -190px;
+  margin-top: -150px;
 }
 
 .seats__info {
@@ -133,19 +128,6 @@ body {
   box-shadow: 0 0 0 0.1em #6f6f70;
 }
 
-/*.screen {
-  display: flex;
-  justify-content: center;
-  width: 400px;
-  margin-left: 107px;
-  margin-bottom: 30px;
-  border-bottom: 3px solid #000000;
-  /*-webkit-box-shadow: 0px 0px 2px 2px #9b9b9b;
-         -moz-box-shadow: 0px 0px 2px 2px #9b9b9b;
-              box-shadow: 0px 0px -2px 2px #9b9b9b;
-  box-shadow: 0 5px 2px #9b9b9b;*
-}*/
-
 .screen__title {
   margin-top: 20px;
   text-align: center;
@@ -154,10 +136,10 @@ body {
 
 .screen__title::after {
   content: "";
-  /*position: absolute;*/
   display: flex;
   justify-content: center;
   margin-left: 45px;
+  -moz-margin-start: 110px;
   margin-bottom: 30px;
   width: 420px;
   border-bottom: 3px solid #000000;
@@ -178,7 +160,6 @@ body {
 }
 
 .seat__option {
-  /*display: block;*/
   margin-bottom: 0.5em;
 }
 
@@ -187,11 +168,8 @@ body {
 }
 
 .seat__input {
-  /*position: absolute;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;*/
   margin: 15px;
+  -moz-margin-start: 12px;
   width: 1px;
   height: 1px;
   opacity: 0;
@@ -243,12 +221,10 @@ body {
 
 .seats__purchase:hover {
   background-color: #d6d5d5;
-  /*outline: 1px outset #363636;*/
 }
 
 .seats__purchase:focus {
   background-color: #d6d5d5;
-  /*outline: 1px outset #363636;*/
 }
 
 @media (max-width: 1120px) {
@@ -272,7 +248,6 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* align-content: flex-start; */
     margin: 20px;
     margin-top: -280px;
   }
@@ -411,9 +386,6 @@ body {
     height: 150px;
     width: 100px;
   }
-  /*.movie__description{
-    margin-top: -40px;
-  }*/
   .movie__title {
     font-size: 14px;
   }
