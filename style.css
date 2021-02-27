@@ -232,12 +232,12 @@ body {
   margin-top: 15px;
   padding: 5px;
   font-size: 20px;
-
   text-align: center;
 }
 
 .order__list-item {
   padding: 5px;
+  list-style-type: none;
 }
 
 .total-price {
